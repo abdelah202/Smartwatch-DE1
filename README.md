@@ -43,7 +43,9 @@ This project implements a digital watch and stopwatch system on the Altera DE1 d
 
 * **Altera DE1 Board** (with NIOS II processor)
 
-![DE1 altera Board](images/DE1_board.jpg)
+| ![DE1 altera Board](images/DE1_board.jpg) |
+|:----------------------------------:|
+
 
 ### Software Overview:
 
