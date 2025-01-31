@@ -58,9 +58,9 @@ The project uses the NIOS II processor and integrates with the peripherals (LEDs
 2. **Start Stopwatch**: Press **KEY1** to start the stopwatch.
 3. **Pause Stopwatch**: Press **KEY2** to pause the stopwatch.
 4. **Stop Stopwatch**: Press **KEY3** to stop the stopwatch.
-5. **Toggle Display**: Use switches 1-9 to control the update of the watch and toggle between the watch and stopwatch modes.
+5. **Toggle Display**: Use switch 1 to switch from watch mode to stopwatch mode and vice-versa, and switch 2 to adjust time.
 6. **Display the Time**: The current time and stopwatch time will be displayed on the 7-segment displays.
 
 ### Future Improvements:
 
-* Add more functionality to the watch (such as alarm settings or countdown timers).
+* Adding more functionalities such as alarm settings or countdown timers.
