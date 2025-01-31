@@ -14,14 +14,19 @@ This project implements a digital watch and stopwatch system on the Altera DE1 d
 #### Push Buttons:
 
 * **KEY0**: Reset the system.
-* **KEY1-3**:
+* **Watch Mode**: 
+  * **KEY1**: Incrementing hours/minutes.
+  * **KEY2**: Decrementing hours/minutes.
+  * **KEY3**: swtching from adjusting hours <-> minutes.
+* **Stopwatch Mode**:
   * **KEY1**: Start the stopwatch.
   * **KEY2**: Pause the stopwatch.
   * **KEY3**: Stop the stopwatch.
 
 #### Switches:
 
-* **Switches 1-9**: Control various operations, such as updating the time on the watch and toggling between the watch and stopwatch displays.
+* **SW0**: switching from Watch mode <-> Stopwatch mode.
+* **SW1**: switching from Adjust time <-> only Display time.
 
 #### 7-Segment Displays:
 
@@ -37,22 +42,12 @@ This project implements a digital watch and stopwatch system on the Altera DE1 d
 ### Hardware Requirements:
 
 * **Altera DE1 Board** (with NIOS II processor)
-* **8 MB SDRAM** for storing variables and system data
-* **JTAG interface** for programming and debugging
-* **UART interface** for communication (if needed)
 
 ### Software Overview:
 
 The project uses the NIOS II processor and integrates with the peripherals (LEDs, buttons, switches, 7-segment displays, and timers) to implement the digital watch and stopwatch functionality.
 
-### How to Use:
-
-1. **Reset the system**: Press **KEY0** to reset the watch and stopwatch.
-2. **Start Stopwatch**: Press **KEY1** to start the stopwatch.
-3. **Pause Stopwatch**: Press **KEY2** to pause the stopwatch.
-4. **Stop Stopwatch**: Press **KEY3** to stop the stopwatch.
-5. **Toggle Display**: Use switch 1 to switch from watch mode to stopwatch mode and vice-versa, and switch 2 to adjust time.
-6. **Display the Time**: The current time and stopwatch time will be displayed on the 7-segment displays.
+### Qsys Wiring:
 
 ### Future Improvements:
 
