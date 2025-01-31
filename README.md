@@ -43,6 +43,10 @@ This project implements a digital watch and stopwatch system on the Altera DE1 d
 
 * **Altera DE1 Board** (with NIOS II processor)
 
+| ![DE1 altera Board](images/DE1_board.jpg) |
+|:----------------------------------:|
+
+
 ### Software Overview:
 
 The project uses the NIOS II processor and integrates with the peripherals (LEDs, buttons, switches, 7-segment displays, and timers) to implement the digital watch and stopwatch functionality.
