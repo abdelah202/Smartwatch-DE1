@@ -6,15 +6,8 @@ This project implements a digital watch and stopwatch system on the Altera DE1 d
 
 ### Key Components:
 
-* **NIOS II Processor**
-* **SDRAM** (8 MB)
-* **JTAG Interface**
-* **UART Interface**
-* **LEDs** (Red and Green)
-* **Push Buttons** (KEY0, KEY1, KEY2, KEY3)
-* **Switches** (4 total)
-* **7-Segment Displays** (4 total)
-* **Timer**
+![Watch Project Diagram](images/Diagram.png)
+
 
 ### Description of Inputs and Outputs:
 
