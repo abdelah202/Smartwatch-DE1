@@ -1,0 +1,218 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 21:06:06  December 26, 2024
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		montre_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name DEVICE EP2C5F256C6
+set_global_assignment -name TOP_LEVEL_ENTITY sys_montre
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "21:06:06  DECEMBER 26, 2024"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[0]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[1]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[2]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[3]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[4]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[5]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[6]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[7]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[8]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[9]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[10]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[11]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[12]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[13]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[14]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[15]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[16]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[17]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[18]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[19]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[20]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[21]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[22]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[23]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[24]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[25]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[26]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[27]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[28]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[29]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[30]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[31]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[32]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[33]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[34]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_0[35]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[0]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[1]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[2]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[3]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[4]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[5]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[6]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[7]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[8]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[9]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[10]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[11]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[12]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[13]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[14]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[15]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[16]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[17]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[18]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[19]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[20]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[21]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[22]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[23]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[24]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[25]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[26]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[27]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[28]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[29]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[30]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[31]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[32]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[33]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[34]
+set_instance_assignment -name IO_STANDARD LVTTL -to GPIO_1[35]
+set_instance_assignment -name IO_STANDARD LVTTL -to sw_external_interface_export[0]
+set_instance_assignment -name IO_STANDARD LVTTL -to sw_external_interface_export[1]
+set_instance_assignment -name IO_STANDARD LVTTL -to sw_external_interface_export[2]
+set_instance_assignment -name IO_STANDARD LVTTL -to sw_external_interface_export[3]
+set_instance_assignment -name IO_STANDARD LVTTL -to sw_external_interface_export[4]
+set_instance_assignment -name IO_STANDARD LVTTL -to sw_external_interface_export[5]
+set_instance_assignment -name IO_STANDARD LVTTL -to sw_external_interface_export[6]
+set_instance_assignment -name IO_STANDARD LVTTL -to sw_external_interface_export[7]
+set_instance_assignment -name IO_STANDARD LVTTL -to sw_external_interface_export[8]
+set_instance_assignment -name IO_STANDARD LVTTL -to sw_external_interface_export[9]
+set_instance_assignment -name IO_STANDARD LVTTL -to hex_external_interface_HEX1[0]
+set_instance_assignment -name IO_STANDARD LVTTL -to hex_external_interface_HEX1[1]
+set_instance_assignment -name IO_STANDARD LVTTL -to hex_external_interface_HEX1[2]
+set_instance_assignment -name IO_STANDARD LVTTL -to hex_external_interface_HEX1[3]
+set_instance_assignment -name IO_STANDARD LVTTL -to hex_external_interface_HEX1[4]
+set_instance_assignment -name IO_STANDARD LVTTL -to hex_external_interface_HEX1[5]
+set_instance_assignment -name IO_STANDARD LVTTL -to hex_external_interface_HEX1[6]
+set_instance_assignment -name IO_STANDARD LVTTL -to hex_external_interface_HEX2[0]
+set_instance_assignment -name IO_STANDARD LVTTL -to hex_external_interface_HEX2[1]
+set_instance_assignment -name IO_STANDARD LVTTL -to hex_external_interface_HEX2[2]
+set_instance_assignment -name IO_STANDARD LVTTL -to hex_external_interface_HEX2[3]
+set_instance_assignment -name IO_STANDARD LVTTL -to hex_external_interface_HEX2[4]
+set_instance_assignment -name IO_STANDARD LVTTL -to hex_external_interface_HEX2[5]
+set_instance_assignment -name IO_STANDARD LVTTL -to hex_external_interface_HEX2[6]
+set_instance_assignment -name IO_STANDARD LVTTL -to hex_external_interface_HEX3[0]
+set_instance_assignment -name IO_STANDARD LVTTL -to hex_external_interface_HEX3[1]
+set_instance_assignment -name IO_STANDARD LVTTL -to hex_external_interface_HEX3[2]
+set_instance_assignment -name IO_STANDARD LVTTL -to hex_external_interface_HEX3[3]
+set_instance_assignment -name IO_STANDARD LVTTL -to hex_external_interface_HEX3[4]
+set_instance_assignment -name IO_STANDARD LVTTL -to hex_external_interface_HEX3[5]
+set_instance_assignment -name IO_STANDARD LVTTL -to hex_external_interface_HEX3[6]
+set_instance_assignment -name IO_STANDARD LVTTL -to key_external_interface_export[1]
+set_instance_assignment -name IO_STANDARD LVTTL -to key_external_interface_export[2]
+set_instance_assignment -name IO_STANDARD LVTTL -to key_external_interface_export[3]
+set_instance_assignment -name IO_STANDARD LVTTL -to ledr_external_interface_export[0]
+set_instance_assignment -name IO_STANDARD LVTTL -to ledr_external_interface_export[1]
+set_instance_assignment -name IO_STANDARD LVTTL -to ledr_external_interface_export[2]
+set_instance_assignment -name IO_STANDARD LVTTL -to ledr_external_interface_export[3]
+set_instance_assignment -name IO_STANDARD LVTTL -to ledr_external_interface_export[4]
+set_instance_assignment -name IO_STANDARD LVTTL -to ledr_external_interface_export[5]
+set_instance_assignment -name IO_STANDARD LVTTL -to ledr_external_interface_export[6]
+set_instance_assignment -name IO_STANDARD LVTTL -to ledr_external_interface_export[7]
+set_instance_assignment -name IO_STANDARD LVTTL -to ledr_external_interface_export[8]
+set_instance_assignment -name IO_STANDARD LVTTL -to ledr_external_interface_export[9]
+set_instance_assignment -name IO_STANDARD LVTTL -to ledg_external_interface_export[0]
+set_instance_assignment -name IO_STANDARD LVTTL -to ledg_external_interface_export[1]
+set_instance_assignment -name IO_STANDARD LVTTL -to ledg_external_interface_export[2]
+set_instance_assignment -name IO_STANDARD LVTTL -to ledg_external_interface_export[3]
+set_instance_assignment -name IO_STANDARD LVTTL -to ledg_external_interface_export[4]
+set_instance_assignment -name IO_STANDARD LVTTL -to ledg_external_interface_export[5]
+set_instance_assignment -name IO_STANDARD LVTTL -to ledg_external_interface_export[6]
+set_instance_assignment -name IO_STANDARD LVTTL -to ledg_external_interface_export[7]
+set_instance_assignment -name IO_STANDARD LVTTL -to CLOCK_27
+set_instance_assignment -name IO_STANDARD LVTTL -to CLOCK_24[0]
+set_instance_assignment -name IO_STANDARD LVTTL -to CLOCK_24[1]
+set_instance_assignment -name IO_STANDARD LVTTL -to clk_clk
+set_instance_assignment -name IO_STANDARD LVTTL -to EXT_CLOCK
+set_instance_assignment -name IO_STANDARD LVTTL -to PS2_CLK
+set_instance_assignment -name IO_STANDARD LVTTL -to PS2_DAT
+set_instance_assignment -name IO_STANDARD LVTTL -to UART_RXD
+set_instance_assignment -name IO_STANDARD LVTTL -to UART_TXD
+set_instance_assignment -name IO_STANDARD LVTTL -to TDI
+set_instance_assignment -name IO_STANDARD LVTTL -to TCS
+set_instance_assignment -name IO_STANDARD LVTTL -to TCK
+set_instance_assignment -name IO_STANDARD LVTTL -to TDO
+set_instance_assignment -name IO_STANDARD LVTTL -to VGA_R[0]
+set_instance_assignment -name IO_STANDARD LVTTL -to VGA_R[1]
+set_instance_assignment -name IO_STANDARD LVTTL -to VGA_R[2]
+set_instance_assignment -name IO_STANDARD LVTTL -to VGA_R[3]
+set_instance_assignment -name IO_STANDARD LVTTL -to VGA_G[0]
+set_instance_assignment -name IO_STANDARD LVTTL -to VGA_G[1]
+set_instance_assignment -name IO_STANDARD LVTTL -to VGA_G[2]
+set_instance_assignment -name IO_STANDARD LVTTL -to VGA_G[3]
+set_instance_assignment -name IO_STANDARD LVTTL -to VGA_B[0]
+set_instance_assignment -name IO_STANDARD LVTTL -to VGA_B[1]
+set_instance_assignment -name IO_STANDARD LVTTL -to VGA_B[2]
+set_instance_assignment -name IO_STANDARD LVTTL -to VGA_B[3]
+set_instance_assignment -name IO_STANDARD LVTTL -to VGA_HS
+set_instance_assignment -name IO_STANDARD LVTTL -to VGA_VS
+set_instance_assignment -name IO_STANDARD LVTTL -to I2C_SCLK
+set_instance_assignment -name IO_STANDARD LVTTL -to I2C_SDAT
+set_instance_assignment -name IO_STANDARD LVTTL -to AUD_ADCLRCK
+set_instance_assignment -name IO_STANDARD LVTTL -to AUD_ADCDAT
+set_instance_assignment -name IO_STANDARD LVTTL -to AUD_DACLRCK
+set_instance_assignment -name IO_STANDARD LVTTL -to AUD_DACDAT
+set_instance_assignment -name IO_STANDARD LVTTL -to AUD_XCK
+set_instance_assignment -name IO_STANDARD LVTTL -to AUD_BCLK
+set_instance_assignment -name IO_STANDARD LVTTL -to hex_external_interface_HEX0[0]
+set_instance_assignment -name IO_STANDARD LVTTL -to hex_external_interface_HEX0[1]
+set_instance_assignment -name IO_STANDARD LVTTL -to hex_external_interface_HEX0[2]
+set_instance_assignment -name IO_STANDARD LVTTL -to hex_external_interface_HEX0[3]
+set_instance_assignment -name IO_STANDARD LVTTL -to hex_external_interface_HEX0[4]
+set_instance_assignment -name IO_STANDARD LVTTL -to hex_external_interface_HEX0[5]
+set_instance_assignment -name IO_STANDARD LVTTL -to hex_external_interface_HEX0[6]
+set_global_assignment -name QIP_FILE sys_montre/synthesis/sys_montre.qip
+set_instance_assignment -name IO_STANDARD LVTTL -to reset_n_reset_n
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
