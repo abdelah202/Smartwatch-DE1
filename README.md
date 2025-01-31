@@ -48,6 +48,8 @@ This project implements a digital watch and stopwatch system on the Altera DE1 d
 The project uses the NIOS II processor and integrates with the peripherals (LEDs, buttons, switches, 7-segment displays, and timers) to implement the digital watch and stopwatch functionality.
 
 ### Qsys Wiring:
+![](images/qsys1.png)
+![Qsys wiring](images/qsys2.png)
 
 ### Future Improvements:
 
